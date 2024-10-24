@@ -1,0 +1,433 @@
+{
+    "news": [
+        {
+            "id": "0",
+            "title": "硕士研究生杨慧文在CCF A类中文期刊《软件学报》发表最新研究成果——智能合约安全漏洞检测研究进展",
+            "content": [
+                {
+                    "types": "text",
+                    "info": "智能合约是运行在区块链合约层的计算机程序,能够管理区块链上的加密数字货币和数据,实现多样化的业务逻辑,扩展了区块链的应用.由于智能合约中通常涉及大量资产,吸引了大量攻击者试图利用其中的安全漏洞获得经济利益.近年来,随着多起智能合约安全事件的发生(例如TheDAO、Parity安全事件等),针对智能合约的安全漏洞检测技术成为国内外研究热点.提出智能合约安全漏洞检测的研究框架,分别从漏洞发现与识别、漏洞分析与检测、数据集与评价指标这3个方面分析现有检测方法研究进展.首先,梳理安全漏洞信息收集的基本流程,将已知漏洞根据基础特征归纳为13种漏洞类型并提出智能合约安全漏洞分类框架;然后,按照符号执行、模糊测试、机器学习、形式化验证和静态分析5类检测技术对现有研究进行分析,并讨论各类技术的优势及局限性;第三,整理常用的数据集和评价指标;最后,对智能合约安全漏洞检测的未来研究方向提出展望."
+                },
+                {
+                    "types": "image",
+                    "info": "Smart_Contracts_Research_Process.png"
+                }
+            ],
+            "date": "2024年1月4日",
+            "graphicAbstract": "Smart_Contracts_Research_Process.png",
+            "doi": "10.13328/j.cnki.jos.007046",
+            "href": "https://www.jos.org.cn/jos/article/abstract/7046"
+        },
+        {
+            "id": "1",
+            "title": "硕士研究生杨慧文在CCF B类国际期刊SCP发表最新研究成果——CrossFuzz: Cross-contract fuzzing for smart contract vulnerability detection",
+            "content": [
+                {
+                    "types": "text",
+                    "info": "智能合约是在区块链上运行的计算机程序。随着智能合约实现的功能变得越来越复杂，其中的跨合约交互数量也在增加。因此，交易序列的组合爆炸对智能合约安全漏洞检测提出了重大挑战。现有的基于静态分析的检测跨合约漏洞的方法存在高误报率，无法生成测试用例，而基于模糊测试的方法代码覆盖率低，可能无法准确检测安全漏洞。"
+                },
+                {
+                    "types": "text",
+                    "info": "本文的目标是解决上述局限性，并有效地检测跨合约漏洞。为了实现这一目标，我们提出了CrossFuzz，这是一种基于模糊测试的检测跨合约漏洞的方法。首先，CrossFuzz通过跟踪数据传播路径来生成构造函数的参数。然后，它收集合同间的数据流信息。最后，CrossFuzz基于合约间数据流信息优化事务序列的变异策略，以提高模糊测试的性能。"
+                },
+                {
+                    "types": "image",
+                    "info": "CrossFuzz.png"
+                },
+                {
+                    "types": "text",
+                    "info": "我们实现了CrossFuzz，这是ConFuzzius的扩展，并在包含396个智能合约的真实数据集上进行了实验。结果表明，CrossFuzz的性能优于xFuzz，后者是一种基于模糊测试的工具，针对跨合约漏洞检测进行了优化，字节码覆盖率提高了10.58%。此外，CrossFuzz检测到的安全漏洞是ConFuzzius的1.82倍。"
+                }
+                ,
+                {
+                    "types": "text",
+                    "info": "我们的方法利用数据流信息来优化变异策略。它显著提高了检测跨合约漏洞的模糊测试的效率。"
+                }
+            ],
+            "date": "2024年1月4日",
+            "graphicAbstract": "CrossFuzz.png",
+            "doi": "10.1016/j.scico.2023.103076",
+            "href": "https://doi.org/10.1016/j.scico.2023.103076"
+        },
+        {
+            "id": "2",
+            "title": "硕士研究生林高毅在SCI 一区期刊IoT-J发表最新研究成果——A Fast Crash Reproduction Method for Android Applications Based on Widget Hierarchy Graphs",
+            "content": [
+                {
+                    "types": "text",
+                    "info": "为了提高修复bug的效率，移动应用程序开发人员必须尽快重现测试人员或用户报告的bug。在某些情况下，自动化测试工具可以帮助开发人员重现崩溃。然而，这些工具不是为再现错误报告而设计的。它们在复制崩溃方面效率不高。"
+                },
+                {
+                    "types": "text",
+                    "info": "为了将测试资源集中在可疑的小部件上，我们提出了CrPDroid，这是一种基于小部件层次图的Android应用程序快速崩溃再现方法。首先，它使用被测应用程序的项目文件构建一个小部件层次图；然后，通过分析bug报告和被测应用程序的项目文件来定位可疑小部件，并根据小部件层次图计算每个小部件的适应度；最后，它使用小部件的适用性来指导自动测试，以快速再现崩溃。"
+                },
+                {
+                    "types": "image",
+                    "info": "CrPDroid.png"
+                },
+                {
+                    "types": "text",
+                    "info": "为了评估CrPDroid的有效性，对真实的Android应用程序错误报告进行了实验，并将崩溃再现工具ReCDroid、ReproBot和自动测试工具APE和PUMA与CrPDroit进行了比较。实验结果表明，CrPDroid成功再现了15个导致Android应用程序崩溃的错误报告。此外，与APE、PUMA、ReCDroid和ReproBot相比，CrPDroid再现崩溃的平均时间分别缩短了76.87%、81.94%、95.58%和76.55%，同一测试期间对可疑小部件的操作总数分别平均增加了44.07%、87.57%、88.70%和68.93%。"
+                }
+            ],
+            "date": "2024年1月22日",
+            "graphicAbstract": "CrPDroid.png",
+            "doi": "10.1109/JIOT.2024.3357209",
+            "href": "https://doi.org/10.1109/JIOT.2024.3357209"
+        },
+        {
+            "id": "3",
+            "title": "硕士研究生王浩仁在CCF A类中文期刊《电子学报》发表最新研究成果——基于冗余覆盖信息约简的软件缺陷定位方法",
+            "content": [
+                {
+                    "types": "text",
+                    "info": "软件规模和复杂程度的不断提高，为软件质量保障带来了严峻的挑战.软件缺陷定位是一种重要的软件质量保障技术，其中基于频谱的缺陷定位（Spectrum-based Fault Localization,SFL）是应用最为广泛的软件缺陷定位技术，其通过分析语句覆盖信息矩阵计算代码语句的可疑度值，并根据可疑度值定位缺陷所在语句.然而，语句覆盖信息矩阵中存在着严重的数据冗余问题，冗余的数据极大地影响了SFL的缺陷定位性能.以Defects4J数据集中395个程序的语句覆盖信息矩阵为例，在超过一半的语句覆盖信息矩阵中有90%的语句存在与其具有相同覆盖信息的语句."
+                },
+                {
+                    "types": "text",
+                    "info": "特征选择是常用的数据预处理技术，通过去除冗余和不相关特征来获取原始特征集中有价值的特征子集.因此，我们将语句覆盖信息矩阵作为原始特征集，将冗余覆盖信息约简建模为特征选择问题，提出了一种基于冗余覆盖信息约简的软件缺陷定位方法（Fault Localization based on Redundant coverage information Reduction,FLRR）.首先，使用特征选择技术对语句覆盖信息和测试用例执行结果组成的语句覆盖信息矩阵进行约简，得到语句覆盖信息矩阵子集；然后，使用SFL计算语句覆盖信息矩阵子集中语句的可疑度值，并根据可疑度值对语句进行降序排列，以定位缺陷语句.本文使用六种常用的特征选择技术对语句覆盖信息矩阵进行特征选择和约简，以得到语句覆盖信息矩阵子集，并使用四种典型的SFL技术对语句覆盖信息矩阵子集中的语句进行缺陷定位.为评估FLRR的缺陷定位性能，本文使用Einspect@n和MRR（Mean Reciprocal Rank）评价指标在基于Defects4J的数据集上与四种典型的SFL技术进行了对比实验."
+                },
+                {
+                    "types": "image",
+                    "info": "FLRR.png"
+                },
+                {
+                    "types": "text",
+                    "info": "实验结果表明，FLRR能够有效提升SFL的缺陷定位性能.对于Einspect@n指标，当n=1时，FLRR相比DStar、Ochiai、Barinel和OP2分别多定位到23条、26条、14条和13条缺陷语句，分别增加了69.70%、76.47%、45.16%和38.24%；对于MRR指标，FLRR相比DStar、Ochiai、Barinel和OP2分别提升了20.08%、24.94%、17.45%和19.15%. "
+                }
+            ],
+            "date": "2024年3月12日",
+            "graphicAbstract": "FLRR.png",
+            "doi": "10.12263/DZXB.20220820",
+            "href": "https://www.ejournal.org.cn/CN/10.12263/DZXB.20220820"
+        },
+        {
+            "id": "4",
+            "title": "硕士研究生张家铭在CCF A类中文期刊《计算机学报》发表最新研究成果——覆盖率制导的灰盒模糊测试研究综述",
+            "content": [
+                {
+                    "types": "text",
+                    "info": "由于部署简单、可扩展性强、挖掘到大量真实漏洞等原因,模糊测试得到了科研和工程人员的广泛关注.其中,覆盖率制导的灰盒模糊测试(Covcragc-guidcd Grcybox Fuzzing,简称CGF)以被测程序代码覆盖率为反馈信息,可对软件进行较为充分的自动化测试,有效地保障软件质量,是目前最为流行的一类模糊测试技术.研究人员为改进CGF投入了大量精力,产生了许多研究成果.然而,目前并未有研究针对CGF的已有研究工作进行系统性综述.为此,本文分析了近年来CGF的相关重要研究成果,将CGF流程划分为4个阶段:预处理、测试用例选择、测试用例演化和测试用例评估,并系统地分阶段分析了已有研究进展.此外,针对现有工作中评估分析设置不一致的问题,本文整理了CGF领域中常用的测试对象、实验设置及评估指标.最后,基于对已有研究进展的分析,阐述了CGF目前在预处理、测试用例选择等阶段存在的局限性、可能的解决方案以及未来的研究方向."
+                },
+                {
+                    "types": "image",
+                    "info": "CGF_Survey.png"
+                }
+            ],
+            "date": "2024年4月8日",
+            "graphicAbstract": "CGF_Survey.png",
+            "doi": "10.11897/SP.J.1016.2024.01665",
+            "href": "http://cjc.ict.ac.cn/qwjs/view.asp?id=5952"
+        },
+        {
+            "id": "5",
+            "title": "硕士研究生林高毅在CCF A类中文期刊《软件学报》发表最新研究成果——状态转换图制导的ARP错误检测方法",
+            "content": [
+                {
+                    "types": "text",
+                    "info": "Android应用开发人员需要在保持应用频繁更新的同时快速检测出应用中Android运行时权限(Android runtime permission, ARP)错误.现有的Android应用自动化测试工具通常未考虑ARP机制,无法有效测试Android应用内的权限相关行为."
+                },
+                {
+                    "types": "text",
+                    "info": "为帮助开发人员快速检测出应用中ARP错误,提出状态转换图制导的Android应用运行时权限错误检测方法.首先,对被测应用APK文件进行权限误用分析,插桩APK文件中可能导致ARP错误的API,并对APK文件重新签名;然后,安装插桩后的APK文件,动态探索应用以生成其状态转换图(state transition graph, STG);最后,使用STG制导自动化测试,快速检测出应用中ARP错误."
+                },
+                {
+                    "types": "image",
+                    "info": "RPBDroid.png"
+                },
+                {
+                    "types": "text",
+                    "info": "基于所提出方法实现原型工具RPBDroid,并与ARP错误动态检测工具SetDroid、PermDroid和传统自动化测试工具APE进行对比实验.实验结果表明, RPBDroid成功检测出17个应用中的15个ARP错误,比APE、SetDroid、PermDroid分别多14、12和14个.此外,相比于测试工具SetDroid、PermDroid和APE, RPBDroid检测ARP错误的平均用时分别减少86.42%、86.72%和86.70%."
+                }
+            ],
+            "date": "2024年4月28日",
+            "graphicAbstract": "RPBDroid.png",
+            "doi": "10.13328/j.cnki.jos.007142",
+            "href": "https://jos.org.cn/jos/article/abstract/7142"
+        },
+        {
+            "id": "6",
+            "title": "硕士研究生金昊宸在CCF B类国际期刊SCP发表最新研究成果——A directed greybox fuzzing tool for continuous integration",
+            "content": [
+                {
+                    "types": "text",
+                    "info": "模糊测试是一种自动化测试技术，因其效率和可扩展性而受到认可。尽管有其优势，但软件日益增长的复杂性和规模使测试软件变得越来越具有挑战性。如果模糊测试能够为缺陷倾向较高的模块优先分配资源，则可以有效地提高其缺陷检测性能。本文介绍了DPFuzz，一种用于优先分配模糊测试资源的工具。DPFuzz通过计算适应度得分来指导模糊测试，该得分基于具有不同缺陷倾向的模块的覆盖率。DPFuzz还展示了在软件质量保证中使用缺陷预测的实用性，并通过实验证实了其出色的缺陷检测性能。"
+                },
+                {
+                    "types": "image",
+                    "info": "DPFuzz.png"
+                }
+            ],
+            "date": "2024年7月8日",
+            "graphicAbstract": "DPFuzz.png",
+            "doi": "10.1016/j.scico.2024.103170",
+            "href": "https://doi.org/10.1016/j.scico.2024.103170"
+        },
+        {
+            "id": "7",
+            "title": "硕士研究生乔塬心在CCF C类国际会议SMC发表最新研究成果——Perturbing and Backtracking Based Textual Adversarial Attack",
+            "content": [
+                {
+                    "types": "text",
+                    "info": "在自然语言处理（Natural Language Processing，NLP）领域，语言模型被广泛应用于文本分类、机器翻译和逻辑推理等任务中。然而，语言模型缺陷的存在使得其容易受到对抗攻击，造成重大经济损失。通过模拟对抗攻击生成的对抗样本可以有效检测语言模型缺陷，并用于对抗训练来提升模型的鲁棒性。现有方法大多通过先选择待扰动重要单词再对其添加扰动来生成对抗样本。此类方法需要对受攻击的目标模型进行大量查询，在目标模型查询次数受限的场景下并不适用。如何以更高效的方式生成能够引发错误的对抗样本是一个亟待解决的问题。"
+                },
+                {
+                    "types": "text",
+                    "info": "为此，本文提出了基于决策边界扰动回溯的文本对抗攻击（Classification Boundary Adjacent Perturbation and Backtrack based Textual Adversarial Attack，CBAPB），该方法首先在保持样本原始语义不发生改变的条件下，在随机位置粗粒度地添加扰动，直到样本达到相似度阈值。然后对所有对抗成功的样本进行细粒度扰动回溯，来获得扰动幅度尽可能小的对抗样本。"
+                },
+                {
+                    "types": "image",
+                    "info": "CBAPB.png"
+                },
+                {
+                    "types": "text",
+                    "info": "本文在Yelp Reviews、AG News和DBpedia数据集上，以BERT为目标模型进行了多次实验。与TextFooler、BERTAttack和CLARE等方法相比，CBAPB需要的平均查询次数仅占上述方法的3.2%，对抗成功率也提高了7.6%，仅有文本相似度小幅下降了1.5%。实验结果表明，CBAPB可以有效地减少目标的模型访问次数，同时提高对抗成功率。"
+                }
+            ],
+            "date": "2024年7月11日",
+            "graphicAbstract": "CBAPB.png",
+            "doi": "",
+            "href": ""
+        },
+        {
+            "id": "8",
+            "title": "硕士研究生张佳乐在CCF C类国际会议SMC发表最新研究成果——TS-FL: Software Fault Localization Based on Teacher-Student Network",
+            "content": [
+                {
+                    "types": "text",
+                    "info": "构建自动化的缺陷定位方法能够加快开发人员定位到复杂软件系统缺陷代码的过程。现有的缺陷定位方法通过结合不同传统缺陷定位方法输出的可疑分数来提升缺陷定位的性能，其中基于变异的缺陷定位方法输出的可疑分数，通常被称为变异特征，被证明能有效提升缺陷定位性能。然而，收集变异特征时需要生成大量变异体并为每个变异体执行测试用例，这需要大量的计算资源和时间，并且部分代码语句由于无法生成变异体，因此不具有变异特征，这将影响缺陷定位性能。"
+                },
+                {
+                    "types": "text",
+                    "info": "为此，本文提出了一种基于师生网络的缺陷定位方法(Teacher and Student network-based Fault Localization, TS-FL)， 首先使用基于BiLSTM的分类器提取代码语句的深层语义特征，并分别将基于频谱和基于变异的缺陷定位方法计算出的可疑分数作为代码语句的频谱特征和变异特征；然后构建师生网络，利用相互学习策略协同训练教师网络与学生网络，使学生网络可以学习教师网络中变异特征的信息从而提高缺陷定位性能；最后，学生网络通过学习代码语句的深层语义特征和频谱特征为每条代码语句计算可疑分数，最终根据可疑分数对代码语句进行降序排序，从而定位缺陷语句。为了评估TS-FL的缺陷定位性能，使用Top'-' N、MAR、MFR等评价指标在Defects4J数据集上进行实验。"
+                },
+                {
+                    "types": "image",
+                    "info": "TS-FL.jpg"
+                },
+                {
+                    "types": "text",
+                    "info": "实验结果表明，在不使用变异特征时，对于Top'-' 1指标，与基于频谱的缺陷定位方法Ochiai、Tarantula和DStar相比，TS-FL可分别多定位到36、36和35条缺陷语句；与基于深度学习的缺陷定位方法TRANSFER-FL相比，TS-FL可多定位到8条缺陷语句。"
+                }
+            ],
+            "date": "2024年7月11日",
+            "graphicAbstract": "TS-FL.jpg",
+            "doi": "",
+            "href": ""
+        },
+        {
+            "id": "9",
+            "title": "硕士研究生杨君在CCF C类国际会议SMC发表最新研究成果——Issue Title Generation: How Far Can Large Language Models Go?",
+            "content": [
+                {
+                    "types": "text",
+                    "info": "在开源软件和开源平台中，开发人员通过issue来记录软件故障信息、报告文档缺失或提出新功能需求。标题是issue的必填字段，需简洁准确地概括issue核心内容。然而，由于经验不足、水平有限等原因，开发人员可能难以书写高质量的issue标题。为此，研究人员提出了几种issue标题生成方法来自动生成高质量标题，但生成效果依赖于构建相同项目的数据集用于训练模型。近年来，大语言模型（LLMs）在机器翻译、阅读理解、文本生成等各种通用任务上展现了卓越性能，也为其他生成式任务带来了巨大潜力。"
+                },
+                {
+                    "types": "text",
+                    "info": "在本文中，我们以ChatGPT作为LLMs代表，验证其在issue标题生成任务上的有效性。初步实验发现，直接使用LLMs难以获得令人满意的结果。为此，本文提出一种基于LLMs的issue标题生成方法LBITG，通过案例提示、标签提示等四种提示方式向LLMs提供相关上下文，引导其生成高质量标题，进一步提高LLMs的有效性。"
+                },
+                {
+                    "types": "image",
+                    "info": "LBITG.png"
+                },
+                {
+                    "types": "text",
+                    "info": " 实验结果表明，无需训练即可使用的LBITG能够提升LLMs生成标题的质量，在项目内场景下ROUGE、BLEU和METEOR指标相较iTAPE至少提升了111.29%、104.54%和188.48%，并取得了与SOTA方法iTiger相当的性能。此外，LBITG在跨项目场景下取得了最佳表现，在ROUGE-1、BLEU-1、METEOR等指标上相较iTiger分别提升了25.33%、30.14%和27.29%。"
+                },
+                {
+                    "types": "image",
+                    "info": "LBITG-2.jpg"
+                }
+            ],
+            "date": "2024年7月11日",
+            "graphicAbstract": "LBITG.png",
+            "doi": "",
+            "href": ""
+        },
+        {
+            "id": "10",
+            "title": "硕士研究生任森林在CCF C类国际会议SMC发表最新研究成果——Combining Deep Learning and Expert Rules for Smart Contract Vulnerability Detection",
+            "content": [
+                {
+                    "types": "text",
+                    "info": "智能合约通常持有大量数字资产，一旦存在漏洞就可能造成巨大损失。因此，在智能合约部署前对其中可能存在的漏洞进行充分检测是十分必要的。智能合约中存在多种类型的漏洞，不同检测方法有各自的独特优势，有些漏洞可能更适合专家规则模型进行检测，有些漏洞则更适合深度学习模型进行检测，单一的检测方法通常无法充分发挥其检测漏洞的能力。"
+                },
+                {
+                    "types": "text",
+                    "info": "针对上述问题，我们提出了一种结合深度学习和专家规则的智能合约漏洞检测方法CDE-VD（Combining Deep Learning and Expert Rule for Smart Contract Vulnerability Detection）来进一步提高漏洞检测性能。该方法通过在检测前分类的方式，将智能合约样本分为深度学习倾向样本和专家规则倾向样本，并提取专家规则特征来训练智能合约检测方法分类器（SCDMC），使用训练后的SCDMC来预测待检测样本的类别，再选取适合的方法进行检测。"
+                },
+                {
+                    "types": "image",
+                    "info": "CDE-VD.png"
+                },
+                {
+                    "types": "text",
+                    "info": "实验结果表明，CDE-VD的漏洞检测性能优于单一的检测方法，在权限控制、时间戳依赖等五类漏洞的Accuracy、Precision、Recall和F_1值方面相较于SOTA方法MANDO分别取得了3.22%、2.32%、9.25%和6.54%的平均提高，这表明对智能合约样本进行类别预测可以提高漏洞检测性能。"
+                }
+            ],
+            "date": "2024年7月11日",
+            "graphicAbstract": "CDE-VD.png",
+            "doi": "",
+            "href": ""
+        },
+        {
+            "id": "11",
+            "title": "硕士研究生韩骐鸿在CCF C类国际会议SMC发表最新研究成果——Vulnerability Detection by Sequential Learning of Program Semantics via Graph Attention Networks",
+            "content": [
+                {
+                    "types": "text",
+                    "info": "漏洞检测是保护软件系统免受网络攻击的一个重要方面。然而，有些类型的漏洞很难检测，需要从多个角度分析源代码。为此，我们提出了一个通用且易于扩展的框架，即 SGVD（用于漏洞检测的顺序图注意力网络）。"
+                },
+                {
+                    "types": "text",
+                    "info": "SGVD 由一个基于 GAT 学习代码语义表示的顺序模块和一个从多视图源代码中提取有用特征的新型融合预测模块组成。我们在一个包含两个大型开源 C 项目的数据集上对该框架进行了评估。实验结果表明，与现有的最先进的图学习漏洞检测工具 Devign 和 ReGVD 相比，SGVD 性能更好，准确率平均提高了 12.25%，精确度平均提高了 13.65%，F1 分数平均提高了 12.04%，召回率平均提高了 9.14%。。"
+                },
+                {
+                    "types": "image",
+                    "info": "SGVD.png"
+                }
+            ],
+            "date": "2024年7月11日",
+            "graphicAbstract": "SGVD.png",
+            "doi": "",
+            "href": ""
+        },
+        {
+            "id": "12",
+            "title": "硕士研究生兰文尉在SCI 四区期刊SoftwareX发表最新研究成果——A directed greybox fuzzing tool for continuous integration",
+            "content": [
+                {
+                    "types": "text",
+                    "info": "在持续集成过程中经常发生更改。当面向持续集成时，现有的测试方法往往存在特异性弱或不足的问题。为了解决这个问题，我们实现了一个名为CIDFuzz的模糊测试工具用于持续集成。首先，进行差分分析以定位变更点，并计算基本块和变更点之间的距离。然后，这些距离被插至到被测程序中。在模糊测试过程中，根据种子的覆盖情况分配测试资源以有效地测试变更点。"
+                },
+                {
+                    "types": "image",
+                    "info": "CIDFuzz_tool.png"
+                }
+            ],
+            "date": "2024年7月19日",
+            "graphicAbstract": "CIDFuzz-tool.png",
+            "doi": "10.1016/j.softx.2024.101824",
+            "href": "https://doi.org/10.1016/j.softx.2024.101824"
+        },
+        {
+            "id": "13",
+            "title": "硕士研究生王天阔在CCF C类国际会议SEKE发表最新研究成果（Poster）——From Domain Models to Natural Language Requirement Documents: An Exploration of Requirement Missing Problems",
+            "content": [
+                {
+                    "types": "text",
+                    "info": "在软件工程中，精确的需求规格说明至关重要，通常来自容易产生歧义和不一致的自然语言文档。这可能会导致严重的遗漏，进而需要高昂的维护成本。本研究引入了RCADM方法，这是一种结合NLP和领域模型的方法，用于识别软件需求文档中的缺失需求，从而增强抽取。"
+                },
+                {
+                    "types": "image",
+                    "info": "RCADM.png"
+                }
+            ],
+            "date": "2024年7月21日",
+            "graphicAbstract": "RCADM.png",
+            "doi": "",
+            "href": ""
+        },
+        {
+            "id": "14",
+            "title": "硕士研究生王正武在CCF C类国际会议SEKE发表最新研究成果——SDA-FirmFuzz: Fuzz Testing IoT Device Firmwares Based on Seed Differential Analysis",
+            "content": [
+                {
+                    "types": "text",
+                    "info": "物联网设备已经被用于我们生活的各个方面，近年来有攻击人员利用其设备固件中存在的漏洞，对设备进行控制并利用，因此确保固件的安全是十分重要的。模糊测试技术是一种软件自动化测试技术，已经在传统软件中挖掘到了大量漏洞。研究人员将模糊测试技术用于固件测试，大幅提升了其漏洞检测效率。现有的固件模糊测试主要关注模糊测试前的固件静态分析、改进仿真工具提高模糊测试的方法通用性和提高仿真吞吐量来提高模糊测试的效率等方面。一般来说，测试用例（种子）的质量会影响模糊测试的结果，高质量的种子可以使得覆盖更多的程序路径并触发崩溃。"
+                },
+                {
+                    "types": "text",
+                    "info": "因此本文提出一种基于种子差异化分析的物联网设备固件模糊测试方法SDA-FirmFuzz（Fuzz Testing of IoT Device Firmware Based on Seed Differential Analysis），通过在模糊测试前对种子队列进行差异化分析，使得差异化程度更高的种子优先被执行。首先通过提取种子字节矩阵，并使用余弦相似度计算方法得到相似度矩阵。之后通过相似度矩阵计算得到权重矩阵，再对相似度矩阵与权重矩阵进行计算，得到种子相似度分数。最后，根据相似度分数对种子队列重新排序，之后将新的种子队列输入物联网设备固件中进行模糊测试。"
+                },
+                {
+                    "types": "image",
+                    "info": "SDA-FirmFuzz.png"
+                },
+                {
+                    "types": "text",
+                    "info": "为了评估SDA-FirmFuzz的性能，我们在6个物联网设备固件上进行了实验，实验结果表明，SDA-FirmFuzz平均比Firm-AFL能够多覆盖1.26倍的程序路径和多触发32个唯一崩溃。"
+                }
+            ],
+            "date": "2024年7月21日",
+            "graphicAbstract": "SDA-FirmFuzz.png",
+            "doi": "",
+            "href": ""
+        },
+        {
+            "id": "15",
+            "title": "硕士研究生谢瑞麟在CCF A类中文期刊《软件学报》发表最新研究成果——IADT:基于解释分析的深度神经网络差分测试",
+            "content": [
+                {
+                    "types": "text",
+                    "info": "随着深度神经网络(deep neural network, DNN)的迅猛发展,其在某些特定任务上的准确性已可媲美甚至超过人类.然而, DNN与传统软件一样不可避免地存在缺陷,若将带缺陷的DNN模型应用于安全攸关的领域甚至可能引发严重事故,如何有效检测缺陷DNN模型已成为亟需解决的问题.传统的差分测试方法将测试目标在同一测试输入下的输出结果作为差异分析的依据.然而,即使是相同训练程序和数据重复训练的不同DNN模型在同一测试输入下也常会产生不同的输出结果.因此,不能认为模型输出具有差异的两个模型中存在缺陷模型,基于测试对象输出结果的传统差分测试方法难以直接用于DNN模型的缺陷检测."
+                },
+                {
+                    "types": "text",
+                    "info": "为解决上述问题,提出基于解释分析的DNN模型差分测试方法 IADT (interpretation-analysis-based differential testing),利用解释方法分析DNN模型对于测试输入的行为解释,并使用统计方法分析模型对测试集行为解释的显著性差异来检测缺陷模型.使用真实缺陷模型进行实验的结果表明,解释方法的引入使IADT能有效检测缺陷DNN模型,检测缺陷模型的F1值比DeepCrime高0.8%–6.4%,而所消耗的时间仅为DeepCrime的4.0%–5.4%."
+                },
+                {
+                    "types": "image",
+                    "info": "IADT.png"
+                }
+            ],
+            "date": "2024年8月15日",
+            "graphicAbstract": "IADT.png",
+            "doi": "10.13328/j.cnki.jos.007088",
+            "href": "https://jos.org.cn/jos/article/abstract/7088"
+        },
+        {
+            "id": "16",
+            "title": "硕士研究生顾锡国在CCF C类国际会议ISPA发表最新研究成果——Detecting smart contract vulnerabilities based on fusing semantic and syntax structure information",
+            "content": [
+                {
+                    "types": "text",
+                    "info": "由于智能合约的广泛应用以及其携带的经济价值导致智能合约成为攻击者的攻击目标，智能合约的漏洞造成了重大的经济损失。因此，在智能合约部署前对其中可能存在的漏洞进行充分检测是十分必要的。然而，现有的机器学习的方法忽略节点和边的类型信息，而异构图的方法只表征出了合约的语义信息，而缺乏语法结信息，从而会因特征表征不完整而导致漏洞检测性能下降。"
+                },
+                {
+                    "types": "text",
+                    "info": "针对上述问题，我们提出了一种融合语义及语法结构信息智能合约漏洞检测方法HG-Detector（Heterogeneous Graph, Detector）。该方法通过分析智能合约源代码，并提取异构的抽象语法树（Heterogeneous Abstract Syntax Tree）、控制流图（Heterogeneous Control Flow Graph）和函数调用图（Heterogeneous Function Call Graph），以获取合约的语法和语义信息。通过使用异构图神经网络（Heterogeneous Graph Neural Network），从这些图中学习特征并进行拼接 来综合表征智能合约。最终，将综合特征输入到分类器检测智能合约中的潜在漏洞及其类型。"
+                },
+                {
+                    "types": "image",
+                    "info": "HG-Detector.png"
+                },
+                {
+                    "types": "text",
+                    "info": "在包含1269个合约的数据集上进行实验的结果表明，相比于MANDO，HG-Detector在7类漏洞上的Accuracy平均提升了4.78%，Precision平均提升了10.06%，Recall平均提升了1.61%，F1平均提升了2.29%。"
+                }
+            ],
+            "date": "2024年8月21日",
+            "graphicAbstract": "HG-Detector.png",
+            "doi": "",
+            "href": ""
+        },
+        {
+            "id": "17",
+            "title": "硕士研究生顾锡国在CCF A类中文期刊《电子学报》发表最新研究成果——SCG-Detector：基于图注意力网络的智能合约漏洞检测方法",
+            "content": [
+                {
+                    "types": "text",
+                    "info": "随着智能合约被广泛使用，其处理的业务逻辑更加复杂，代码复杂度越来越高，引发了大量安全漏洞.为避免潜在安全漏洞造成的危害，研究人员提出了一系列智能合约漏洞检测方法 .但现有方法对合约特征表征不完整，未将合约的语义及结构特征进行统一表征，难以准确、全面地检测和识别智能合约中的潜在漏洞和安全风险."
+                },
+                {
+                    "types": "text",
+                    "info": "为此，本文提出了基于图注意力网络的智能合约漏洞检测方法 SCG-Detector(Smart Contract Graph Detector).首先，通过解析合约源代码构建抽象语法树（Abstract Syntax Tree,AST）以表征合约语法结构信息，并在AST上添加表示语义信息的数据依赖关系和控制依赖关系，以构建合约图（Smart Contract Graph,SCG）同时表征合约的语法结构及语义信息；然后，将SCG输入到图注意网络模型中进行训练，利用注意力机制学习合约中漏洞的特征；最后，利用训练好的图注意力网络模型检测合约中是否存在漏洞及所存在漏洞的类型."
+                },
+                {
+                    "types": "image",
+                    "info": "SCG-Detector.png"
+                },
+                {
+                    "types": "text",
+                    "info": "SCG-Detector在12616个智能合约上进行的实验结果表明，相比于sFuzz、Conkas、ConFuzzius、Mythril、Osiris、Slither、Oyente、MANDO-GURU等8种广泛使用的方法，SCG-Detector的Precision最高提升了26.46%,Recall最高提升了69.64%,F1最高提升了59.57%."
+                }
+            ],
+            "date": "2024年10月14日",
+            "graphicAbstract": "SCG-Detector.png",
+            "doi": "",
+            "href": ""
+        }
+    ]
+}
