@@ -27,10 +27,10 @@ id,type,author,introduction,href,CCF,SCI,EI,year,published,isDel
 26,Journal,"李铮, 崔展齐*, 陈翔, 王荣存, 刘建宾, 郑丽伟","李铮, 崔展齐*, 陈翔, 王荣存, 刘建宾, 郑丽伟. Deep-SBFL:基于频谱的深度神经网络缺陷定位方法. 《软件学报》. 2023, 34(5):2231-2250.(CCF T1、A类中文期刊)",,1,0,1,2023,1,0
 27,Journal,"崔展齐*, 谢瑞麟, 陈翔*, 刘秀磊, 郑丽伟","崔展齐*, 谢瑞麟, 陈翔*, 刘秀磊, 郑丽伟. DeepRanger：覆盖制导的深度森林测试方法. 《软件学报》. 2023, 34(5):2251-2267.(CCF T1、A类中文期刊)",,1,0,1,2023,1,0
 28,Journal,"Jiaming Zhang, Zhanqi Cui*, Xiang Chen, Huiwen Yang, Liwei Zheng, Jianbin Liu","Jiaming Zhang, Zhanqi Cui*, Xiang Chen, Huiwen Yang, Liwei Zheng, Jianbin Liu. CIDFuzz: Fuzz Testing for Continuous Integration. IET Software. 2023, 17(3): 301-315.(CCF B类国际期刊, SCI 四区)",,3,4,1,2023,1,0
-29,Journal,"潘建文, 崔展齐*, 林高毅, 陈翔, 郑丽伟","潘建文, 崔展齐*, 林高毅, 陈翔, 郑丽伟. Android恶意应用静态检测方法研究综述. 《计算机研究与发展》. 2023,60(08):1875-1894.(CCF T1、A类中文期刊)",,1,0,1,2024,1,0
+29,Journal,"潘建文, 崔展齐*, 林高毅, 陈翔, 郑丽伟","潘建文, 崔展齐*, 林高毅, 陈翔, 郑丽伟. Android恶意应用的静态检测方法研究综述. 《计算机研究与发展》. 2023,60(08):1875-1894.(CCF T1、A类中文期刊)",,1,0,1,2024,1,0
 30,Journal,"吴欢欢, 谢瑞麟, 乔塬心, 陈翔, 崔展齐*","吴欢欢, 谢瑞麟, 乔塬心, 陈翔, 崔展齐*. 基于可解释性分析的深度神经网络优化方法. 《计算机研究与发展》. 2024, 61(1): 209-220.(CCF T1、A类中文期刊)",,1,0,1,2024,1,0
 31,Journal,"谢瑞麟, 崔展齐*, 陈翔, 郑丽伟","谢瑞麟, 崔展齐*, 陈翔, 郑丽伟. IATG：基于可解释性分析的自动驾驶软件测试数据生成方法. 《软件学报》. 2024,35(06):2753-2774. (CCF T1、A类中文期刊)",,1,0,1,2024,1,0
-32,Journal,"王浩仁, 崔展齐*, 岳雷, 陈翔, 郑丽伟","王浩仁, 崔展齐*, 岳雷, 陈翔, 郑丽伟. 基于特征选择的软件缺陷定位方法. 《电子学报》. 2024, 52(1): 324-337.(CCF T1、A类中文期刊)",,1,0,1,2024,1,0
+32,Journal,"王浩仁, 崔展齐*, 岳雷, 陈翔, 郑丽伟","王浩仁, 崔展齐*, 岳雷, 陈翔, 郑丽伟. 基于冗余覆盖信息约简的软件缺陷定位方法. 《电子学报》. 2024, 52(1): 324-337.(CCF T1、A类中文期刊)",,1,0,1,2024,1,0
 33,Journal,"岳雷, 崔展齐*, 陈翔, 王荣存, 李莉","岳雷, 崔展齐*, 陈翔, 王荣存, 李莉. 基于历史缺陷信息检索的语句级软件缺陷定位方法. 《软件学报》. 10.13328/j.cnki.jos.006980. (CCF T1、A类中文期刊)",,1,0,1,2023,1,0
 34,Journal,"Ke Liu, Xiang Chen*, Chunyang Chen, Xiaofei Xie, Zhanqi Cui","Ke Liu, Xiang Chen*, Chunyang Chen, Xiaofei Xie, Zhanqi Cui. Automated Question Title Reformulation by Mining Modification Logs From Stack Overflow. IEEE Transactions on Software Engineering. 2023, 49(9): 4390-4410.(CCF A类国际期刊, SCI 一区)",,2,1,1,2023,1,0
 35,Journal,"刘诗凡, 崔展齐*, 陈翔, 李莉","刘诗凡, 崔展齐*, 陈翔, 李莉. MMCUP：融合多模态信息的代码注释自动更新方法. 《计算机学报》. 2024,47(01):172-189. (CCF T1、A类中文期刊)",,1,0,1,2024,1,0
@@ -106,5 +106,5 @@ id,type,author,introduction,href,CCF,SCI,EI,year,published,isDel
 105,Journal,"汤健, 郑丽伟, 金芝","汤健, 郑丽伟, 金芝. 需求驱动的服务Agent协作及其协商框架. 模式识别与人工智能， vol．20， pp：643-653，2008．",,0,0,1,2008,1,0
 106,Journal,"Liwei Zheng, Jian Tang and Zhi Jin","Liwei Zheng, Jian Tang and Zhi Jin. An Agent Based Framework for Internetware Computing. International Journal of Software and Informatics (IJSI) , 4(4):401-418,2010.",,0,0,0,2010,1,0
 107,Conference,"Liwei Zheng, Jian Tang and Zhi Jin","Liwei Zheng, Jian Tang and Zhi Jin. Modeling in agent oriented internetware framework. In the proceedings of The Second Asia-Pacific Symposium on Internetware. Nov 3-4,  2010. (BEST PAPER AWARD)",,0,0,1,2010,1,0
-108,Journal,"顾锡国, 王志伟, 陈翔, 何启帆, 崔展齐*","顾锡国, 王志伟, 陈翔, 何启帆, 崔展齐*. 基于图注意力网络的智能合约漏洞检测方法. 电子学报. ",,1,0,1,2024,0,0
-109,Journal,"Ruilin Xie, Xiang Chen, Qifan He, Bixin Li,Zhanqi Cui*","Ruilin Xie, Xiang Chen, Qifan He, Bixin Li,Zhanqi Cui*. IATT: Interpretation Analysis based Transferable Test Generation for Convolutional Neural Networks. ACM Transactions on Software Engineering and Methodology. (CCF A类国际期刊, SCI 一区)",,2,1,1,2024,0,0
+108,Journal,"顾锡国, 王志伟, 陈翔, 何启帆, 崔展齐*","顾锡国, 王志伟, 陈翔, 何启帆, 崔展齐*. SCG-Detector：基于图注意力网络的智能合约漏洞检测方法. 电子学报. ",,1,0,1,2024,1,0
+109,Journal,"Ruilin Xie, Xiang Chen, Qifan He, Bixin Li,Zhanqi Cui*","Ruilin Xie, Xiang Chen, Qifan He, Bixin Li,Zhanqi Cui*. IATT: Interpretation Analysis based Transferable Test Generation for Convolutional Neural Networks. ACM Transactions on Software Engineering and Methodology. (CCF A类国际期刊, SCI 一区)",,2,1,1,2024,1,0
